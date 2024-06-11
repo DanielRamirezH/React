@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0; 
+}
+.App {
+  background-color: rgba(1, 1, 37, 0.685);
+}
+body {
+  background-color: rgba(0, 0, 255, 0.685);
+}
+.contenedor-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-img {
+  height: 100px;
+  width: 450px;
+}
+.logo-freeCodeCamp {
+  height: 100%;
+  width: 100%;
+}

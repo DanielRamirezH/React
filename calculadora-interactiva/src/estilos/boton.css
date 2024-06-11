@@ -1,0 +1,44 @@
+.contenedor-boton {
+  width: 45px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1.5px solid white;
+  background-color: green;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  margin: 4px;
+  flex: 1 1;
+}
+.contenedor-boton:hover {
+  background-color: red;
+}
+.fila {
+  display: flex;
+  flex-direction: row;
+  
+}
+.ecuacion {
+  background-color: blue;
+}
+.ecuacion:hover {
+  background-color: orange;
+}
+.contenedor-filas-columnas {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+  width: 100%;
+}
+.clear {
+  background-color: violet;
+  width: 216px;
+}
+.clear:hover {
+  background-color: maroon;
+}
+
